@@ -1,0 +1,153 @@
+  body {
+    background: -webkit-gradient(linear, left bottom, left top, from(#fbc2eb), to(#a18cd1));
+    background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+    background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+    background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+    background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+  }
+  
+
+
+
+body {
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    color: #F5F5F5;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header img {
+    width: 200px;
+    height: auto;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);  /* Adjust height based on header height */
+    border-width: 2px; /* Set border thickness to 2 pixels */
+  border-style: solid;
+  border-radius: 30px;
+  }
+  
+  .inti {
+    font-size: 50px;
+  }
+  button {
+    background-color: #C7C7F1;
+    border: none;
+    color: #F5F5F5;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 30px;
+      display: inline-block;
+  line-height: 40px;
+  padding: 0 33px;
+  font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+  cursor: pointer;
+  color: #F5F5F5;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-size: 18px;
+
+    /* Existing styles... */
+    width: 750px; /* Adjust width as desired */
+    height: 50px; /* Adjust height as desired */
+  }
+  
+
+  
+  button:hover {
+    background-color: #C7C7F1;
+  }
+
+  main {
+    background-color: #A4A5E6; /* Optional background color */
+    border: 1px solid #967997; /* Optional border */
+    padding: 20px; /* Optional padding */
+    margin: 0 auto; /* Center the section horizontally */
+    width: 50%; /* Adjust width as desired */
+    text-align: center; /* Center the content within the section */
+  }
+
+  .logout-button button {
+    position: absolute;  /* Make logout button positioned relative to its parent */
+    top: 80px;  /* Adjust top position from the top edge */
+    right: 420px;  /* Adjust right position from the right edge */
+    width: 100px; /* Adjust width as desired */
+    height: 40px;
+    font-size: 10px;
+    display: inline-block;
+    text-align: center;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .home-button1 button {
+    position: absolute;  /* Make logout button positioned relative to its parent */
+    top: 80px;  /* Adjust top position from the top edge */
+    right: 980px;  /* Adjust right position from the right edge */
+    width: 60px; /* Adjust width as desired */
+    height: 40px;
+    font-size: 10px;
+    display: inline-block;
+    text-align: center;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 4px 35px;
+    padding: 1px 0px;
+
+  }
+
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px; /* Adjust padding as desired */
+    background-color: #f5f5f5; /* Light grey background */
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
+    width: 600px; 
+    /* Styles for focus state */
+    &:focus {
+      border-color: #333;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    .fa-solid fa-house {
+      position: absolute;  /* Make logout button positioned relative to its parent */
+      top: 80px;  /* Adjust top position from the top edge */
+      right: 420px;  /* Adjust right position from the right edge */
+      width: 100px; /* Adjust width as desired */
+      height: 40px;
+      font-size: 10px;
+      display: inline-block;
+      text-align: center;
+      font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+    }
+
+ 
+  }
