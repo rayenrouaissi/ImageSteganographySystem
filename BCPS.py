@@ -7,7 +7,6 @@ def bcps_encode(image_path, secret_message, output_path):
 
     # Convert the secret message to binary
     secret_message_binary = ''.join(format(ord(char), '08b') for char in secret_message)
-    secret_message_binary += '1111111111111110'  # Add a delimiter to mark the end of the message
 
     img_gray = img.convert('L')
     img_array = np.array(img_gray)
